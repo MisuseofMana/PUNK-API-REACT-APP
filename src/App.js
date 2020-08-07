@@ -22,7 +22,10 @@ class App extends Component {
 
     render() {
         return (
-            <div>
+            <div class="siteWrapper">
+              <h2>Sean and Ben's Real Good Brewery</h2>
+              <h4>A for sure real tap list, not fake at all.</h4>
+              <p>Call us at 555-555-5555</p>
               <ul>
                 { 
                   this.state.data.map((beer, index) => {
